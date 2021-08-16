@@ -3,7 +3,7 @@ import Card from "../UI/Card";
 import styles from "./UserInput.module.css";
 import Button from "../UI/Button";
 import ErrorModal from "../UI/ErrorModal";
-import Wrapper from "../Helper/Wrapper";
+
 
 function UserInput(props) {
   const nameInputRef = useRef();
@@ -57,7 +57,7 @@ function UserInput(props) {
 
   }
   return (
-    <Wrapper>
+    <React.Fragment>
       {error && (
         <ErrorModal
           title={error.title}
@@ -86,7 +86,7 @@ function UserInput(props) {
           <Button type="submit">Add User</Button>
         </form>
       </Card>
-    </Wrapper>
+    </React.Fragment>
   );
 }
 

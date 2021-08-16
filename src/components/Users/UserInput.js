@@ -12,7 +12,7 @@ function UserInput(props) {
   // because now we use Ref to read the value
   //const [enterUsername, setEnterUsername] = useState("");
   //const [enterAge, setEnterAge] = useState("");
-  const [error, setError] = useState();
+  
 
   //function UsernameInput(event) {
     //With the help of event object, we can access the target of event which is the input and then the value property of the input to get the currently entered value

@@ -3,7 +3,7 @@ import UserInput from "./components/Users/UserInput";
 import UserData from "./components/Users/UserData";
 
 function App() {
-  const [userData, setUserData] = useState([]);
+  
 
   function AddUser(uName, uAge) {
     setUserData((prevUserData) => {
